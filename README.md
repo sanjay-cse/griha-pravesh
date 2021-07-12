@@ -1,3 +1,8 @@
+# griha-pravesh
+
+This is the website for the invitation to the griha pravesh (house warming) happening on 22nd July.
+We will try to use React hooks.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
