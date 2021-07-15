@@ -1,9 +1,6 @@
 .App {
   text-align: center;
-  background: url("background2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* background-position:  center; */
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='39' height='39' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(133)'%3E%3Crect width='100%25' height='100%25' fill='rgba(248, 240, 227,1)'/%3E%3Ccircle cx='23.09' cy='29.51' r='2' stroke-width='0' fill='rgba(155, 44, 44,1)'/%3E%3Ccircle cx='11.91' cy='14.12' r='2' stroke-width='0' fill='rgba(155, 44, 44,1)'/%3E%3Ccircle cx='30' cy='20' r='2' stroke-width='0' fill='rgba(155, 44, 44,1)'/%3E%3Ccircle cx='30' cy='20' r='2' stroke-width='0' fill='%23ecc94b'/%3E%3Ccircle cx='11.91' cy='25.88' r='2' stroke-width='0' fill='%23ecc94b'/%3E%3Ccircle cx='23.09' cy='10.49' r='2' stroke-width='0' fill='%23ecc94b'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ")
 }
 
 .App-logo {
@@ -12,13 +9,12 @@
   border-radius: 15%;
 }
 
-.App-header {
-
+.App-col-flex-box {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #33190f;
+  color: #000;
 }
