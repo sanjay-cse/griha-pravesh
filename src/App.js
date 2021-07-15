@@ -1,13 +1,14 @@
 import './App.css';
 import image from './image.png';
 import image2 from './mummy papa.png';
-
+import ganeshJi from './ganesh ji vector1.png';
 
 function App() {
   return (
     <div className="App">
       <div className="App-col-flex-box">
-        <img src={image2} className="App-logo" alt="logo" />
+        <img src={ganeshJi} className="ganeshji" alt="shri ganesh"/>
+        <img src={image2} className="mummy-and-papa" alt="logo" />
         <p>
           Mrs. and Dr. Sanjay Kumar invite you to their Grih Pravesh.
         </p>
