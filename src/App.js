@@ -1,5 +1,5 @@
 import './App.css';
-import mummypapa from './mummypapa.png';
+import mummypapa from './mummypapa-min.png';
 import ganeshJi from './ganeshji.png';
 
 function App() {
