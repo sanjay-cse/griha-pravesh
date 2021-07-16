@@ -8,7 +8,7 @@ function App() {
       <div className="App-col-flex-box">
         <img src={ganeshJi} className="ganeshji" alt="shri ganesh"/>
         <img src={mummypapa} className="mummy-and-papa" alt="Mrs. and Dr. Sanjay Kumar" />
-        <p>Mrs. and Dr. Sanjay Kumar cordially invite you to the auspicious occasion of Griha Pravesh of their new residence, Gayatri Kripa.<br/>22nd July, 2021<br/>4:00 pm</p>
+        <p>Mrs. and Dr. Sanjay Kumar cordially invite you to the auspicious occasion of Griha Pravesh of their new residence, Gayatri Kripa.<br/>22nd July, 2021<br/>4:00 PM</p>
         <p>
         Gayatri Kripa (Duplex),<br/>
         Heaven River View Society,<br/>
