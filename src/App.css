@@ -23,7 +23,13 @@
 }
 
 .from {
-  max-width: 25vw;
+  max-width: 90vw;
+}
+
+.image-description {
+  font-size:2vmin;
+  font-weight: 700;
+  margin: 0;
 }
 
 .App-col-flex-box {
@@ -35,6 +41,18 @@
 
 .App-row-flex-box {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width:768px) {
+  .App-row-flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .from {
+    max-width: 25vw;
+  }
 }
